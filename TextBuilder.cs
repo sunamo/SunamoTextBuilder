@@ -93,7 +93,14 @@ public class TextBuilder : ITextBuilder
     {
         if (_useList)
         {
-            CA.AppendToLastElement(list, s);
+            if (list.Count > 0)
+            {
+                list[list.Count - 1] += s;
+            }
+            else
+            {
+                list.Add(s);
+            }
         }
         else
         {
