@@ -1,4 +1,7 @@
+
 namespace SunamoTextBuilder;
+using SunamoInterfaces.Interfaces;
+
 
 
 /// <summary>
@@ -30,6 +33,8 @@ public class TextBuilder : ITextBuilder
             sb.Clear();
         }
     }
+
+
 
     /// <summary>
     /// Když někde nastavím na true, musím i zdůvodnit proč

@@ -1,6 +1,8 @@
+namespace SunamoTextBuilder._sunamo;
+
 //namespace SunamoTextBuilder._sunamo;
 
-//public class SH
+//internal class SH
 //{
-//    public static Func<List<string>, string> JoinNL;
+//    internal static Func<List<string>, string> JoinNL;
 //}

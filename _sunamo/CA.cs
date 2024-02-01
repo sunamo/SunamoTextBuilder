@@ -1,6 +1,8 @@
+namespace SunamoTextBuilder._sunamo;
+
 //namespace SunamoTextBuilder._sunamo;
 
-//public class CA
+//internal class CA
 //{
-//    public static Action<List<string>, string> AppendToLastElement;
+//    internal static Action<List<string>, string> AppendToLastElement;
 //}
